@@ -100,5 +100,6 @@ public abstract class Pieza {
     public void setDetallesAdicionales(List<String> detallesAdicionales) {
         this.detallesAdicionales = detallesAdicionales;
     }
+
     
 }
