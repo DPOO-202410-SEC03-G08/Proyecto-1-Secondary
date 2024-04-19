@@ -4,15 +4,15 @@ import java.util.Date;
 import java.util.List;
 
 public abstract class Pieza {
-    private String titulo;
-    private Date fechaCreacion;
-    private String lugarCreacion;
-    private List<String> autores;
-    private String modalidadVenta;
-    private Date fechaEntrega;
-    private int ID;
-    private String IDpropietario;
-    private List<String> detallesAdicionales;
+    protected String titulo;
+    protected Date fechaCreacion;
+    protected String lugarCreacion;
+    protected List<String> autores;
+    protected String modalidadVenta;
+    protected Date fechaEntrega;
+    protected int ID;
+    protected String IDpropietario;
+    protected List<String> detallesAdicionales;
 
     public Pieza(String titulo, Date fechaCreacion, String lugarCreacion, List<String> autores,
                  String modalidadVenta, Date fechaEntrega, int ID, String IDpropietario,
